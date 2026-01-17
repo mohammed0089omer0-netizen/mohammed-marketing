@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #0a3d62;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Language buttons */
+.lang-btns button {
+    margin: 5px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Main Contact Button */
+.contact-main-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #1e3799;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Navigation */
+nav {
+    background: #1e3799;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Services */
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+/* Contact Page */
+.contact-page {
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.whatsapp-btn {
+    background: #25D366;
+}
+
+.email-btn {
+    background: #0a3d62;
+}
+
+/* Back button */
+.back-btn {
+    display: inline-block;
+    margin-top: 15px;
+    color: white;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #1e3799;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
